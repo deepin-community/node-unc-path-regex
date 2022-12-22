@@ -1,0 +1,39 @@
+node-unc-path-regex (0.1.2+~0.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-unc-path-regex: Add Multi-Arch: foreign.
+  * Bump debhelper from old 12 to 13.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Drop dependency to nodejs
+  * Mark test dependencies with <!nocheck>
+  * Use dh-sequence-nodejs auto test & install
+  * Embed typescript definitions and repack
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Nov 2021 22:05:39 +0100
+
+node-unc-path-regex (0.1.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #847159)
+
+ -- Sruthi Chandran <srud@disroot.org>  Tue, 06 Dec 2016 12:21:46 +0530

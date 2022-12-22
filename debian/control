@@ -1,0 +1,25 @@
+Source: node-unc-path-regex
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-unc-path-regex
+Vcs-Git: https://salsa.debian.org/js-team/node-unc-path-regex.git
+Homepage: https://github.com/regexhq/unc-path-regex
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-unc-path-regex
+Architecture: all
+Depends: ${misc:Depends}
+Provides: ${nodejs:Provides}
+Multi-Arch: foreign
+Description: regex to test if a file path is windows UNC file path
+ Regular expression for testing if a file path is a windows UNC file path.
+ Can also be used as a component of another regexp via the `.source` property.
+ .
+ Node.js is an event-based server-side JavaScript engine.

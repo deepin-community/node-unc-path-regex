@@ -1,0 +1,10 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-unc-path-regex-$1/ \
+ https://github.com/regexhq/unc-path-regex/tags .*/archive/.*/v?([\d\.]+).tar.gz group
+
+# It is not recommended use npmregistry. Please investigate more.
+# Take a look at https://wiki.debian.org/debian/watch/
+opts="searchmode=plain,component=types-unc-path-regex,ctype=nodejs,pgpmode=none,filenamemangle=s/^.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-types-unc-path-regex-$1/" \
+ https://registry.npmjs.org/@types/unc-path-regex https://registry.npmjs.org/@types/unc-path-regex/-/unc-path-regex-([\d\.]+)@ARCHIVE_EXT@ group

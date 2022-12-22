@@ -1,0 +1,23 @@
+{
+    "name": "@types/unc-path-regex",
+    "version": "0.1.0",
+    "description": "TypeScript definitions for unc-path-regex",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "BendingBender",
+            "url": "https://github.com/BendingBender",
+            "githubUsername": "BendingBender"
+        }
+    ],
+    "main": "",
+    "types": "index",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "184f3e91221d9ff2713a6247fd7b237d021e5e6f8c1a685f102da3f107868bf6",
+    "typeScriptVersion": "2.0"
+}
